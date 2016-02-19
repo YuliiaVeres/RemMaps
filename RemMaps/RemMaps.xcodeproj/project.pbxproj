@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		320A0AF01C765E82009CEF22 /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 320A0AEF1C765E82009CEF22 /* MKMapView+ZoomLevel.m */; };
+		320A0AF21C772C50009CEF22 /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320A0AF11C772C50009CEF22 /* AnnotationView.swift */; };
+		320A0AF51C77404B009CEF22 /* AnnotationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 320A0AF41C77404B009CEF22 /* AnnotationView.xib */; };
+		320A0AF71C774EC4009CEF22 /* MKAnnotationView+RemMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320A0AF61C774EC4009CEF22 /* MKAnnotationView+RemMaps.swift */; };
+		32C71FA81C7520C6006A7145 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C71FA71C7520C6006A7145 /* AppDelegate.swift */; };
+		32C71FAD1C7520C6006A7145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C71FAB1C7520C6006A7145 /* Main.storyboard */; };
+		32C71FB01C7520C6006A7145 /* RemMaps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32C71FAE1C7520C6006A7145 /* RemMaps.xcdatamodeld */; };
+		32C71FB21C7520C6006A7145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C71FB11C7520C6006A7145 /* Assets.xcassets */; };
+		32C71FB51C7520C6006A7145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C71FB31C7520C6006A7145 /* LaunchScreen.storyboard */; };
+		32C71FC01C75211F006A7145 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C71FBF1C75211F006A7145 /* ViewController.swift */; };
+		32C71FC31C753802006A7145 /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C71FC21C753802006A7145 /* Configs.swift */; };
+		32C71FC61C753B91006A7145 /* MapView+RemMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C71FC51C753B91006A7145 /* MapView+RemMaps.swift */; };
+		32C71FCD1C75C8B0006A7145 /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C71FCC1C75C8B0006A7145 /* Pin.swift */; };
+		32C71FCF1C75D2B5006A7145 /* CLGeocoder+RemMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C71FCE1C75D2B5006A7145 /* CLGeocoder+RemMaps.swift */; };
+		32C71FD11C75D56E006A7145 /* Any+RemMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C71FD01C75D56E006A7145 /* Any+RemMaps.swift */; };
+		32C71FD81C75F0FC006A7145 /* Place+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C71FD61C75F0FC006A7145 /* Place+CoreDataProperties.swift */; };
+		32C71FD91C75F0FC006A7145 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C71FD71C75F0FC006A7145 /* Place.swift */; };
+		32C71FDD1C75F3E8006A7145 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C71FDC1C75F3E8006A7145 /* StorageManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		320A0AED1C765E81009CEF22 /* RemMaps-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RemMaps-Bridging-Header.h"; sourceTree = "<group>"; };
+		320A0AEE1C765E82009CEF22 /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MKMapView+ZoomLevel.h"; path = "3dParty/MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
+		320A0AEF1C765E82009CEF22 /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MKMapView+ZoomLevel.m"; path = "3dParty/MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
+		320A0AF11C772C50009CEF22 /* AnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnnotationView.swift; path = View/AnnotationView.swift; sourceTree = "<group>"; };
+		320A0AF41C77404B009CEF22 /* AnnotationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnnotationView.xib; sourceTree = "<group>"; };
+		320A0AF61C774EC4009CEF22 /* MKAnnotationView+RemMaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MKAnnotationView+RemMaps.swift"; path = "Extensions/MKAnnotationView+RemMaps.swift"; sourceTree = "<group>"; };
+		32C71FA41C7520C6006A7145 /* RemMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C71FA71C7520C6006A7145 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32C71FAC1C7520C6006A7145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32C71FAF1C7520C6006A7145 /* RemMaps.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RemMaps.xcdatamodel; sourceTree = "<group>"; };
+		32C71FB11C7520C6006A7145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32C71FB41C7520C6006A7145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32C71FB61C7520C6006A7145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32C71FBF1C75211F006A7145 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Controller/ViewController.swift; sourceTree = "<group>"; };
+		32C71FC21C753802006A7145 /* Configs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Configs.swift; path = Model/Configs/Configs.swift; sourceTree = "<group>"; };
+		32C71FC51C753B91006A7145 /* MapView+RemMaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MapView+RemMaps.swift"; path = "Extensions/MapView+RemMaps.swift"; sourceTree = "<group>"; };
+		32C71FCC1C75C8B0006A7145 /* Pin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pin.swift; path = View/Pin.swift; sourceTree = "<group>"; };
+		32C71FCE1C75D2B5006A7145 /* CLGeocoder+RemMaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CLGeocoder+RemMaps.swift"; path = "Extensions/CLGeocoder+RemMaps.swift"; sourceTree = "<group>"; };
+		32C71FD01C75D56E006A7145 /* Any+RemMaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Any+RemMaps.swift"; path = "Extensions/Any+RemMaps.swift"; sourceTree = "<group>"; };
+		32C71FD61C75F0FC006A7145 /* Place+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Place+CoreDataProperties.swift"; path = "Model/DataTypes/Place+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		32C71FD71C75F0FC006A7145 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Place.swift; path = Model/DataTypes/Place.swift; sourceTree = "<group>"; };
+		32C71FDC1C75F3E8006A7145 /* StorageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StorageManager.swift; path = Model/StorageManager/StorageManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32C71FA11C7520C6006A7145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		320A0AEC1C765E5B009CEF22 /* 3dParty */ = {
+			isa = PBXGroup;
+			children = (
+				320A0AEE1C765E82009CEF22 /* MKMapView+ZoomLevel.h */,
+				320A0AEF1C765E82009CEF22 /* MKMapView+ZoomLevel.m */,
+				320A0AED1C765E81009CEF22 /* RemMaps-Bridging-Header.h */,
+			);
+			name = 3dParty;
+			sourceTree = "<group>";
+		};
+		32C71F9B1C7520C6006A7145 = {
+			isa = PBXGroup;
+			children = (
+				32C71FA61C7520C6006A7145 /* RemMaps */,
+				32C71FA51C7520C6006A7145 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32C71FA51C7520C6006A7145 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32C71FA41C7520C6006A7145 /* RemMaps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C71FA61C7520C6006A7145 /* RemMaps */ = {
+			isa = PBXGroup;
+			children = (
+				320A0AEC1C765E5B009CEF22 /* 3dParty */,
+				32C71FC41C753B65006A7145 /* Extensions */,
+				32C71FBE1C7520ED006A7145 /* Controller */,
+				32C71FBD1C7520E9006A7145 /* View */,
+				32C71FBC1C7520E4006A7145 /* Model */,
+				32C71FA71C7520C6006A7145 /* AppDelegate.swift */,
+				32C71FAB1C7520C6006A7145 /* Main.storyboard */,
+				32C71FB11C7520C6006A7145 /* Assets.xcassets */,
+				32C71FB31C7520C6006A7145 /* LaunchScreen.storyboard */,
+				32C71FB61C7520C6006A7145 /* Info.plist */,
+				32C71FAE1C7520C6006A7145 /* RemMaps.xcdatamodeld */,
+			);
+			path = RemMaps;
+			sourceTree = "<group>";
+		};
+		32C71FBC1C7520E4006A7145 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32C71FDB1C75F128006A7145 /* StorageManager */,
+				32C71FDA1C75F102006A7145 /* DataTypes */,
+				32C71FC11C7537ED006A7145 /* Configs */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		32C71FBD1C7520E9006A7145 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32C71FCC1C75C8B0006A7145 /* Pin.swift */,
+				320A0AF11C772C50009CEF22 /* AnnotationView.swift */,
+				320A0AF41C77404B009CEF22 /* AnnotationView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		32C71FBE1C7520ED006A7145 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				32C71FBF1C75211F006A7145 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		32C71FC11C7537ED006A7145 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				32C71FC21C753802006A7145 /* Configs.swift */,
+			);
+			name = Configs;
+			sourceTree = "<group>";
+		};
+		32C71FC41C753B65006A7145 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				32C71FC51C753B91006A7145 /* MapView+RemMaps.swift */,
+				32C71FCE1C75D2B5006A7145 /* CLGeocoder+RemMaps.swift */,
+				32C71FD01C75D56E006A7145 /* Any+RemMaps.swift */,
+				320A0AF61C774EC4009CEF22 /* MKAnnotationView+RemMaps.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		32C71FDA1C75F102006A7145 /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				32C71FD61C75F0FC006A7145 /* Place+CoreDataProperties.swift */,
+				32C71FD71C75F0FC006A7145 /* Place.swift */,
+			);
+			name = DataTypes;
+			sourceTree = "<group>";
+		};
+		32C71FDB1C75F128006A7145 /* StorageManager */ = {
+			isa = PBXGroup;
+			children = (
+				32C71FDC1C75F3E8006A7145 /* StorageManager.swift */,
+			);
+			name = StorageManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32C71FA31C7520C6006A7145 /* RemMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32C71FB91C7520C6006A7145 /* Build configuration list for PBXNativeTarget "RemMaps" */;
+			buildPhases = (
+				32C71FA01C7520C6006A7145 /* Sources */,
+				32C71FA11C7520C6006A7145 /* Frameworks */,
+				32C71FA21C7520C6006A7145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemMaps;
+			productName = RemMaps;
+			productReference = 32C71FA41C7520C6006A7145 /* RemMaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32C71F9C1C7520C6006A7145 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Yuliia Veresklia";
+				TargetAttributes = {
+					32C71FA31C7520C6006A7145 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 32C71F9F1C7520C6006A7145 /* Build configuration list for PBXProject "RemMaps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32C71F9B1C7520C6006A7145;
+			productRefGroup = 32C71FA51C7520C6006A7145 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32C71FA31C7520C6006A7145 /* RemMaps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32C71FA21C7520C6006A7145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C71FB51C7520C6006A7145 /* LaunchScreen.storyboard in Resources */,
+				320A0AF51C77404B009CEF22 /* AnnotationView.xib in Resources */,
+				32C71FB21C7520C6006A7145 /* Assets.xcassets in Resources */,
+				32C71FAD1C7520C6006A7145 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32C71FA01C7520C6006A7145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C71FC61C753B91006A7145 /* MapView+RemMaps.swift in Sources */,
+				320A0AF01C765E82009CEF22 /* MKMapView+ZoomLevel.m in Sources */,
+				32C71FC01C75211F006A7145 /* ViewController.swift in Sources */,
+				320A0AF71C774EC4009CEF22 /* MKAnnotationView+RemMaps.swift in Sources */,
+				32C71FDD1C75F3E8006A7145 /* StorageManager.swift in Sources */,
+				32C71FCF1C75D2B5006A7145 /* CLGeocoder+RemMaps.swift in Sources */,
+				32C71FC31C753802006A7145 /* Configs.swift in Sources */,
+				320A0AF21C772C50009CEF22 /* AnnotationView.swift in Sources */,
+				32C71FD81C75F0FC006A7145 /* Place+CoreDataProperties.swift in Sources */,
+				32C71FD11C75D56E006A7145 /* Any+RemMaps.swift in Sources */,
+				32C71FCD1C75C8B0006A7145 /* Pin.swift in Sources */,
+				32C71FB01C7520C6006A7145 /* RemMaps.xcdatamodeld in Sources */,
+				32C71FA81C7520C6006A7145 /* AppDelegate.swift in Sources */,
+				32C71FD91C75F0FC006A7145 /* Place.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32C71FAB1C7520C6006A7145 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32C71FAC1C7520C6006A7145 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32C71FB31C7520C6006A7145 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32C71FB41C7520C6006A7145 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32C71FB71C7520C6006A7145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32C71FB81C7520C6006A7145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32C71FBA1C7520C6006A7145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = RemMaps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yveres.RemMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RemMaps/RemMaps-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32C71FBB1C7520C6006A7145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = RemMaps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yveres.RemMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RemMaps/RemMaps-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32C71F9F1C7520C6006A7145 /* Build configuration list for PBXProject "RemMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C71FB71C7520C6006A7145 /* Debug */,
+				32C71FB81C7520C6006A7145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32C71FB91C7520C6006A7145 /* Build configuration list for PBXNativeTarget "RemMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C71FBA1C7520C6006A7145 /* Debug */,
+				32C71FBB1C7520C6006A7145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		32C71FAE1C7520C6006A7145 /* RemMaps.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				32C71FAF1C7520C6006A7145 /* RemMaps.xcdatamodel */,
+			);
+			currentVersion = 32C71FAF1C7520C6006A7145 /* RemMaps.xcdatamodel */;
+			path = RemMaps.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 32C71F9C1C7520C6006A7145 /* Project object */;
+}
