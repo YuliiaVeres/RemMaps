@@ -45,7 +45,7 @@ extension MKMapView {
         }
     }
     
-    func deselectAnnotations() {
+    func hideCallouts() {
     
         for annotation in annotations {
         

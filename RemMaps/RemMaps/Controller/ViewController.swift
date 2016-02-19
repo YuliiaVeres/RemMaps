@@ -53,7 +53,7 @@ extension ViewController: MKMapViewDelegate {
     func mapView(mapView: MKMapView, didSelectAnnotationView view: MKAnnotationView) {
     
         mapView.deselectAnnotation(view.annotation, animated: true)
-        mapView.deselectAnnotations()
+        mapView.hideCallouts()
         
         guard let callout = NSBundle.mainBundle().loadNibNamed(String(AnnotationView), owner: self, options: nil).first as? AnnotationView, let annotation = view.annotation as? Pin else { return }
         
